@@ -157,7 +157,7 @@ with tab_explainability:
     # Confusion Matrix
     with tab_cm:
         st.markdown("**Confusion Matrix** shows misclassifications per emotion class.")
-        cm_img_path = "media/Images/Confusion Matrix.png"
+        cm_img_path = "media/Images/CM test.png"
         if os.path.exists(cm_img_path):
             img = Image.open(cm_img_path)
             max_width = 1000
